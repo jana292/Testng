@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestNgMethodsDemo  {
 	
-	/*@Test(invocationCount=5000)
+	@Test(invocationCount=5000)
 	public void b()
 	{
 		System.out.println("2nd test");
@@ -23,8 +23,14 @@ public class TestNgMethodsDemo  {
 	{
 		System.out.println("1st test");
 	}
-	*/
-	
+
+	@Test(priority=0)
+	{
+		public void a()
+		{
+	System.out.println("based on priority test");
+	}
+	}
 	
 	
 	
