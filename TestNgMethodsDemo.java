@@ -30,7 +30,7 @@ public class TestNgMethodsDemo  {
 	
 	@BeforeSuite
 	public void a() {
-		System.out.println("Before Suite Ro2");
+		System.out.println("Before Suite Ro2 JEnkins");
 	}
 	
 	@BeforeTest
