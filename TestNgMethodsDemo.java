@@ -36,7 +36,7 @@ public class TestNgMethodsDemo  {
 	@BeforeTest
 	public void b()
 	{
-		System.out.println("Before Test Ro2");
+		System.out.println("Before Test Ro2 Ashitha");
 	}
 	
 	@Test(enabled=true)
